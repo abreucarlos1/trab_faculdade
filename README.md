@@ -8,3 +8,5 @@ Arquivos diversos, em C, Pascal, ASM, MatLab
 *.M - Controle e Automação realizado em MatLab
 
 *.DSN - Arquivo Proteus
+
+Pasta TGI, os arquivos em C são feitos para microcontroladores PIC
