@@ -1,0 +1,78 @@
+SEMA1                                                                                                         PAGE 1
+
+  0090                 1    PORTA1      DATA    090H
+  FFF4                 2    KBD         EQU     0FFF4H
+  00A8                 3    INT0        BIT     0A8H
+  00B2                 4    P32         BIT     0B2H
+  0094                 5    VM          BIT     094H
+  0095                 6    AM          BIT     095H
+  0096                 7    VD          BIT     096H
+                       8    ;
+7000                   9                ORG     7000H
+                      10    
+7000 C2A8             11                CLR     INT0
+7002 90FFF4           12                MOV     DPTR,#KBD
+7005 20B2FD           13    VOLTA:      JB      P32,$
+7008 E0               14                MOVX    A,@DPTR
+                      15    
+7009 6002             16                JZ     INICIO
+700B 8032             17                SJMP   FIM
+                      18    
+700D C294             19    INICIO:     CLR     VM
+700F 787E             20                MOV     R0,#07EH
+7011 7955             21    VM3:        MOV     R1,#255H
+7013 7A55             22    VM2:        MOV     R2,#255H
+7015 DAFE             23    VM1:        DJNZ    R2,VM1
+7017 D9FA             24                DJNZ    R1,VM2
+7019 D8F6             25                DJNZ    R0,VM3
+701B D294             26                SETB    VM
+                      27    
+701D C295             28                CLR     AM
+701F 781F             29                MOV     R0,#01FH
+7021 7955             30    VA3:        MOV     R1,#255H
+7023 7A55             31    VA2:        MOV     R2,#255H
+7025 DAFE             32    VA1:        DJNZ    R2,VA1
+7027 D9FA             33                DJNZ    R1,VA2
+7029 D8F6             34                DJNZ    R0,VA3
+702B D295             35                SETB    AM
+                      36    
+702D C296             37                CLR     VD
+702F 78BD             38                MOV     R0,#0BDH
+7031 7955             39    VD3:        MOV     R1,#255H
+7033 7A55             40    VD2:        MOV     R2,#255H
+7035 DAFE             41    VD1:        DJNZ    R2,VD1
+7037 D9FA             42                DJNZ    R1,VD2
+7039 D8F6             43                DJNZ    R0,VD3
+703B D296             44                SETB    VD
+                      45    
+703D 80C6             46                SJMP    VOLTA
+                      47    
+703F 4390F0           48    FIM:        ORL     PORTA1,#0F0H
+7042 D2A8             49                SETB    INT0
+7044 22               50                RET
+                      51                END
+                      52    
+                      53    
+
+VERSION 1.2h ASSEMBLY COMPLETE, 0 ERRORS FOUND
+SEMA1                                                                                                         PAGE 2
+
+AM . . . . . . . . . . . . . . .  B ADDR  0095H  
+FIM. . . . . . . . . . . . . . .  C ADDR  703FH  
+INICIO . . . . . . . . . . . . .  C ADDR  700DH  
+INT0 . . . . . . . . . . . . . .  B ADDR  00A8H  
+KBD. . . . . . . . . . . . . . .    NUMB  FFF4H  
+P32. . . . . . . . . . . . . . .  B ADDR  00B2H  
+PORTA1 . . . . . . . . . . . . .  D ADDR  0090H  
+VA1. . . . . . . . . . . . . . .  C ADDR  7025H  
+VA2. . . . . . . . . . . . . . .  C ADDR  7023H  
+VA3. . . . . . . . . . . . . . .  C ADDR  7021H  
+VD . . . . . . . . . . . . . . .  B ADDR  0096H  
+VD1. . . . . . . . . . . . . . .  C ADDR  7035H  
+VD2. . . . . . . . . . . . . . .  C ADDR  7033H  
+VD3. . . . . . . . . . . . . . .  C ADDR  7031H  
+VM . . . . . . . . . . . . . . .  B ADDR  0094H  
+VM1. . . . . . . . . . . . . . .  C ADDR  7015H  
+VM2. . . . . . . . . . . . . . .  C ADDR  7013H  
+VM3. . . . . . . . . . . . . . .  C ADDR  7011H  
+VOLTA. . . . . . . . . . . . . .  C ADDR  7005H  

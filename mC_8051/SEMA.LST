@@ -1,0 +1,89 @@
+SEMA                                                                                                          PAGE 1
+
+  0090                 1    PORTA1      DATA    090H    
+  FFF4                 2    KBD         EQU     0FFF4H
+  00A8                 3    INT0        BIT     0A8H
+  00B2                 4    P32         BIT     0B2H
+  0094                 5    VM          BIT     094H
+  0095                 6    AM          BIT     095H
+  0096                 7    VD          BIT     096H
+                       8    ;
+7000                   9                ORG     7000H
+7000 C2A8             10                CLR     INT0
+                      11    
+7002 90FFF4           12                MOV     DPTR,#KBD
+7005 20B2FD           13    INICIO:     JB      P32,$
+7008 4390F0           14                ORL     PORTA1,#0F0H
+                      15    
+700B 7904             16                MOV     R1,#04H
+700D C294             17                CLR     VM
+700F 12702A           18    T1:         LCALL   TEMPO
+7012 D9FB             19                DJNZ    R1,T1
+7014 D294             20                SETB    VM
+7016 C295             21                CLR     AM
+7018 12702A           22                LCALL   TEMPO
+701B D295             23                SETB    AM
+701D 7906             24                MOV     R1,#06
+701F C296             25                CLR     VD
+7021 12702A           26    T2:         LCALL   TEMPO
+7024 D9FB             27                DJNZ    R1,T2
+7026 D296             28                SETB    VD
+7028 80DB             29                SJMP    INICIO
+                      30    
+702A 780A             31    TEMPO:      MOV     R0,#0AH
+702C 7500AF           32    T3:         MOV     TH0,#3CAFH
+****--------------------------------------------^
+****ERROR #2: Undefined symbol
+702F 7500AF           33                MOV     TL0,#3CAFH
+****--------------------------------------------^
+****ERROR #2: Undefined symbol
+7032 C200             34                CLR     TF0
+****--------------------------------------------^
+****ERROR #2: Undefined symbol
+7034 D200             35                SETB    TR0
+****--------------------------------------------^
+****ERROR #2: Undefined symbol
+7036 3000FD           36                JNB     TF0,$
+****--------------------------------------------^
+****ERROR #2: Undefined symbol
+7039 C200             37                CLR     TF0
+****--------------------------------------------^
+****ERROR #2: Undefined symbol
+703B C200             38                CLR     TR0
+****--------------------------------------------^
+****ERROR #2: Undefined symbol
+703D D8ED             39                DJNZ    R0,T3
+703F 22               40                RET
+                      41    
+                      42                END
+                      43    
+                      44    
+
+VERSION 1.2h ASSEMBLY COMPLETE, 7 ERRORS FOUND
+
+ERROR SUMMARY:
+Line #32, ERROR #2: Undefined symbol
+Line #33, ERROR #2: Undefined symbol
+Line #34, ERROR #2: Undefined symbol
+Line #35, ERROR #2: Undefined symbol
+Line #36, ERROR #2: Undefined symbol
+Line #37, ERROR #2: Undefined symbol
+Line #38, ERROR #2: Undefined symbol
+SEMA                                                                                                          PAGE 2
+
+AM . . . . . . . . . . . . . . .  B ADDR  0095H  
+INICIO . . . . . . . . . . . . .  C ADDR  7005H  
+INT0 . . . . . . . . . . . . . .  B ADDR  00A8H  
+KBD. . . . . . . . . . . . . . .    NUMB  FFF4H  
+P32. . . . . . . . . . . . . . .  B ADDR  00B2H  
+PORTA1 . . . . . . . . . . . . .  D ADDR  0090H  
+T1 . . . . . . . . . . . . . . .  C ADDR  700FH  
+T2 . . . . . . . . . . . . . . .  C ADDR  7021H  
+T3 . . . . . . . . . . . . . . .  C ADDR  702CH  
+TEMPO. . . . . . . . . . . . . .  C ADDR  702AH  
+TF0. . . . . . . . . . . . . . .                 UNDEFINED  
+TH0. . . . . . . . . . . . . . .                 UNDEFINED  
+TL0. . . . . . . . . . . . . . .                 UNDEFINED  
+TR0. . . . . . . . . . . . . . .                 UNDEFINED  
+VD . . . . . . . . . . . . . . .  B ADDR  0096H  
+VM . . . . . . . . . . . . . . .  B ADDR  0094H  

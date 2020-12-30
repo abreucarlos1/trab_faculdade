@@ -1,0 +1,69 @@
+LEDZ                                                                                                          PAGE 1
+
+                       1    ;UNIVERSIDADE BRAZ CUBAS
+                       2    ;MICROPROCESSADORES / RICARDO TEIXEIRA
+                       3    ;RGM'S: 123748, 126749, 155003
+                       4    ;PROGRAMA PARA TESTE COM LED'S
+                       5    ;TECLA 0 APAGA TODOS OS LED'S
+                       6    ;TECLA 1 ACENDE TODOS OS LED'S
+                       7    ;TECLA 2 ACENDE OS LED'S 1 E 3
+                       8    ;TECLA 3 ACENDE OS LED'S 2 E 4
+                       9    
+  0090                10    P1      DATA    090H
+  FFF4                11    KPD     EQU     0FFF4H
+  00B2                12    P3_2    BIT     0B2H
+  0094                13    P1_4    BIT     094H
+  0095                14    P1_5    BIT     095H
+  0096                15    P1_6    BIT     096H
+  0097                16    P1_7    BIT     097H
+  00A8                17    INT0    BIT     0A8H
+                      18    
+7000                  19    ORG     7000H
+                      20    
+7000 C2A8             21    CLR INT0
+7002 90FFF4           22    MOV DPTR, #KPD
+7005 20B2FD           23    L2: JB P3_2, $
+7008 43900F           24    L1: ORL P1, #0FH
+700B E0               25    MOVX A, @DPTR
+700C 60FA             26    JZ L1
+700E F8               27    MOV R0, A
+700F 9404             28    SUBB A, #04H
+7011 600C             29    JZ L3
+7013 E8               30    MOV A, R0
+7014 9408             31    SUBB A, #08H
+7016 6011             32    JZ L4
+7018 E8               33    MOV A, R0
+7019 940C             34    SUBB A, #0CH
+701B 6012             35    JZ L5
+701D 8016             36    SJMP XX
+701F C294             37    L3: CLR P1_4
+7021 C295             38    CLR P1_5
+7023 C296             39    CLR P1_6
+7025 C297             40    CLR P1_7
+7027 80DC             41    SJMP L2
+7029 C294             42    L4: CLR P1_4
+702B C296             43    CLR P1_6
+702D 80D6             44    SJMP L2
+702F C295             45    L5: CLR P1_5
+7031 C296             46    CLR P1_6
+7033 80D0             47    SJMP L2
+7035 22               48    XX: RET
+                      49        END
+
+VERSION 1.2h ASSEMBLY COMPLETE, 0 ERRORS FOUND
+LEDZ                                                                                                          PAGE 2
+
+INT0 . . . . . . . . . . . . . .  B ADDR  00A8H  
+KPD. . . . . . . . . . . . . . .    NUMB  FFF4H  
+L1 . . . . . . . . . . . . . . .  C ADDR  7008H  
+L2 . . . . . . . . . . . . . . .  C ADDR  7005H  
+L3 . . . . . . . . . . . . . . .  C ADDR  701FH  
+L4 . . . . . . . . . . . . . . .  C ADDR  7029H  
+L5 . . . . . . . . . . . . . . .  C ADDR  702FH  
+P1 . . . . . . . . . . . . . . .  D ADDR  0090H  
+P1_4 . . . . . . . . . . . . . .  B ADDR  0094H  
+P1_5 . . . . . . . . . . . . . .  B ADDR  0095H  
+P1_6 . . . . . . . . . . . . . .  B ADDR  0096H  
+P1_7 . . . . . . . . . . . . . .  B ADDR  0097H  
+P3_2 . . . . . . . . . . . . . .  B ADDR  00B2H  
+XX . . . . . . . . . . . . . . .  C ADDR  7035H  
