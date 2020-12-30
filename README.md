@@ -5,4 +5,3 @@ Arquivos diversos, em C, Pascal, ASM, MatLab
 *.MDL - Computação Gráfica realizado em POV-Ray
 *.M - Controle e Automação realizado em MatLab
 *.DSN - Arquivo Proteus
-
