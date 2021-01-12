@@ -1,0 +1,765 @@
+üVQHLPEDFILE_4.51.059_007ü
+
+[PF]
+0
+[EPF]
+[DICTIONARY]
+AF - Append Project FILES Section
+AL - Project ALIAS Section
+AM - Append Project MAP Section
+AN - Annotations
+BI - Browse info
+AV - Audio/Video Project Options
+BX - Build Expression Index
+BM - Bookmarks
+BM3 - New Bookmarks
+BN - Browse group names
+BR - Bitmap root
+BE - Build Expression
+BP - Build Tag Pointer Strings
+BT - Build Tags
+CH - Character set
+CI - Citation
+CM - Context map
+CN - Context number
+CNI - Context Number Index
+CP - Compress
+CR - Copyright
+CS - Context string
+CSI - Context String Index
+CV - Compiler version
+CW - Compiler Switch(s)
+DH - Defined help styles
+D2 - Defined help styles - ver 2.00
+D3 - Defined help styles - Ver 3.00
+DN - Display Notes
+ER - Compiler Errors to Ignore
+FM - Font markers
+FN - Font name and size
+FT - Font table
+FS - Full Text Search
+F2 - Font markers - ver 2.00
+HA - Help author
+HC - Help compiler dir
+HF - Help files
+HX - Help comments
+HT - Help topic section
+HTV - HTML options - HTML version
+HTM - HTML options - server version
+HTP - HTML options - export path
+HTI - HTML options - index filename
+HTH - HTML options - HTML Form Header
+HTH2 - HTML options - headers, multiple style version
+HTW - HTML options - web browser
+HTO - HTML options - web browser options
+HTF - HTML options - font translations
+HTS - HTML options - default URL
+HTA - HTML options - alternate HTML
+HTD - HTML options - default HTML
+HTN - HTML options - nonscrolling region
+HTG - HTML options - image path on server
+HTK - HTML options - add keywords
+HTR - HTML options - footer text
+HTRX - HTML options - footer flag
+HTRZ - HTML options - footer html
+HTE - HTML options - header text
+HTEX - HTML options - header flag
+HTEZ - HTML options - header html
+HTC - HTML options - background color
+HTCX - HTML options - background color flag
+HTIM - HTML options - background image
+HTCT - HTML options - text color
+HTCTX - HTML options - text color flag
+HTCL - HTML options - link color
+HTCLX - HTML options - link color flag
+HTCV - HTML options - visited link color
+HTCVX - HTML options - visited link color flag
+HTCA - HTML options - activated link color
+HTCAX - HTML options - activated link color flag
+HTHLP - HTML Help options - HTML Help flag
+HTHLPS - HTML Help options - HTML Help startup file
+HTHLPC - HTML Help options - HTML Help contents file
+HTHLPI - HTML Help options - HTML Help index file
+HTHLPN - HTML Help options - HTML Help navigator file
+HTHLPP - HTML Help options - HTML Help compiler
+HTHLPO - HTML Help options - HTML Help compiler options
+HTHLPR - HTML Help options - HTML Help compile progress
+HTHLPL - HTML Help options - HTML Help language
+HTHLPT - HTML Help options - HTML Help title
+HTHLPW - HTML Help options - HTML Help default window
+HTHLPA - HTML Help options - HTML Help auto toc
+HTHLPV - HTML Help options - HTML Help auto toc header level
+HTHLPX - HTML Help options - HTML Help compile notes
+HTHLPF - HTML Help options - HTML Help flat
+HTHLPZ - HTML Help options - HTML Help fts
+HTGBB - HTML options - global browse buttons
+HTGNB - HTML options - global navigation buttons
+HTGBS - HTML options - global background sound
+HTIL - HTML options - HTML options - image file path
+HTFL - HTML options - HTML options - filename length
+HTFS - HTML options - HTML options - filename source
+HTTI - HTML options - topic background image
+HTTH - HTML options - topic HR filename
+HTTS - HTML options - topic background sound
+HTTE - HTML options - exclude topic
+HTTB - HTML options - exclude browse buttons
+HTTV - HTML options - exclude navigation buttons
+Secondary HTML Help Options are identified with '_2' after their ID.
+HV - Help Magician Version
+IC - Icon FileName
+IE - Index Entries
+IN - Index
+JM - Jump markers
+J2 - Jump markers - ver 2.00
+J3 - Jump markers - ver 3.00
+KW - Keywords
+KW3 - Keywords
+KW4 - Keywords
+KWA - A Keywords
+LH - Last HTML Write
+LN - Language
+LT - Links Tags
+MD - Macro definitions
+MD4 - Macro definitions - ver 4.00
+MM - Multimedia markers
+MK - Multiple keywords
+MK4 - Multiple keywords
+MI - Macro info
+MT - Mid Topic Context Strings
+NS - WYSIWYG Nonscrolling Regions
+NT - NTags
+N2 - NTags - ver 2.00
+N3 - NTags - ver 3.00
+OK - Old key phrase
+OP - Optimize for  CDROM
+PF - Project Flag
+PG - Paragraph Tags
+PJ - Project macro
+PK - Primary Key
+PKI - Primary Key Index
+PM - Popup markers
+P2 - Popup markers - ver 2.00
+P3 - Popup markers - ver 3.00
+PR - Paragraph markers
+PT - Page title
+RC - RTF Compatibility
+SK - Style Hot Keys
+SL - Sorting Language
+SO - Sort using Language
+TI - Title
+TLI - Title Index
+TM - Topic macro
+TP - Template
+TX - Help Text
+UB - Use Build Expression
+UI - Unique File ID
+UR - URL Addresses
+WA - Warning
+WD - Window definitions
+WD3 - Window definitions
+WD4 - Window definitions
+WM - Write map file
+WP - Word Processor
+WS - Windows specification source
+VH - Version History
+[END OF DICTIONARY]
+
+[VQT]
+Mdrn_ac;-1;16777215;15269887;-1;Contents;1;1;2;;;
+[EVQT]
+
+[BT]
+[EBT]
+
+[BE]
+
+
+
+
+
+
+
+
+
+
+[EBE]
+
+[UB]
+True
+[EUB]
+
+[BX]
+ 1
+[EBX]
+
+[HA]
+[EHA]
+
+[HX]
+[EHX]
+
+[AF]
+[EAF]
+
+[AM]
+[EAM]
+
+[BM3]
+0;0;0;;0;0;0;;0;0;0;;0;0;0;;0;0;0;;0;0;0;;0;0;0;;0;0;0;;0;0;0;;0;0;0;;
+[EBM3]
+
+[CV]
+4
+[ECV]
+
+[DN]
+-1
+[EDN]
+[FN]
+
+[EFN]
+[IE]
+
+[EIE]
+[SL]
+0x0409 0x0 0x0 ;English (United States)
+[ESL]
+[SO]
+0
+[ESO]
+[ER]
+0
+[EER]
+[FS]
+
+[EFS]
+[OPT]
+[CH]
+0
+[ECH]
+
+[CI]
+Todos os Direitos Reservados
+[ECI]
+
+[CP]
+0
+[ECP]
+
+[CR]
+Copyright 2000
+[ECR]
+
+[HV]
+451059
+[EHV]
+
+[IN3]
+0
+[EIN3]
+
+[LH]
+-1
+[ELH]
+
+[LN]
+0
+[ELN]
+
+[OK]
+0
+[EOK]
+
+[OP]
+0
+[EOP]
+
+[PJ]
+0
+[EPJ]
+
+[RC]
+2
+[ERC]
+
+[TI]
+Cálculo Numérico
+[ETI]
+
+[UI]
+19092446
+[EUI]
+
+[HTV]
+2
+[EHTV]
+
+[HTM]
+4
+[EHTM]
+
+[HTP]
+C:\HMPRO\HTML
+[EHTP]
+
+[HTI]
+index.htm
+[EHTI]
+
+[HTH2]
+;;;;;;;;;;;;;;;;;
+[EHTH2]
+
+[HTW]
+[EHTW]
+
+[HTO]
+[EHTO]
+
+[HTF]
+0;8;10;12;14;20;26;36;
+[EHTF]
+
+[HTS]
+[EHTS]
+
+[HTA]
+[EHTA]
+
+[HTD]
+[EHTD]
+
+[HTN]
+-1
+[EHTN]
+
+[HTPT]
+0
+[EHTPT]
+
+[HTG]
+stuff
+[EHTG]
+
+[HTK]
+0
+[EHTK]
+
+[HTR]
+[EHTR]
+
+[HTRX]
+0
+[EHTRX]
+
+[HTRZ]
+0
+[EHTRZ]
+
+[HTE]
+[EHTE]
+
+[HTEX]
+0
+[EHTEX]
+
+[HTEZ]
+0
+[EHTEZ]
+
+[HTCX]
+0
+[EHTCX]
+
+[HTC]
+12632256
+[EHTC]
+
+[HTIM]
+[EHTIM]
+
+[HTCT]
+0
+[EHTCT]
+
+[HTCTX]
+0
+[EHTCTX]
+
+[HTCL]
+16711680
+[EHTCL]
+
+[HTCLX]
+0
+[EHTCLX]
+
+[HTCV]
+8388736
+[EHTCV]
+
+[HTCVX]
+0
+[EHTCVX]
+
+[HTCA]
+255
+[EHTCA]
+
+[HTCAX]
+0
+[EHTCAX]
+
+[HTFP]
+HM
+[EHTFP]
+
+[HTGBB]
+[EHTGBB]
+
+[HTGNB]
+[EHTGNB]
+
+[HTGBS]
+[EHTGBS]
+
+[HTIL]
+C:\HMPRO\HTML
+[EHTIL]
+
+[HTFL]
+0
+[EHTFL]
+
+[HTFS]
+0
+[EHTFS]
+
+[HTV_2]
+2
+[EHTV_2]
+
+[HTM_2]
+4
+[EHTM_2]
+
+[HTP_2]
+C:\HMPRO\HTML
+[EHTP_2]
+
+[HTI_2]
+index.htm
+[EHTI_2]
+
+[HTH2_2]
+;;;;;;;;;;;;;;;;;
+[EHTH2_2]
+
+[HTW_2]
+[EHTW_2]
+
+[HTO_2]
+[EHTO_2]
+
+[HTF_2]
+0;8;10;12;14;20;26;36;
+[EHTF_2]
+
+[HTS_2]
+[EHTS_2]
+
+[HTA_2]
+[EHTA_2]
+
+[HTD_2]
+[EHTD_2]
+
+[HTN_2]
+-1
+[EHTN_2]
+
+[HTPT_2]
+0
+[EHTPT_2]
+
+[HTG_2]
+stuff
+[EHTG_2]
+
+[HTK_2]
+0
+[EHTK_2]
+
+[HTR_2]
+[EHTR_2]
+
+[HTRX_2]
+0
+[EHTRX_2]
+
+[HTRZ_2]
+0
+[EHTRZ_2]
+
+[HTE_2]
+[EHTE_2]
+
+[HTEX_2]
+0
+[EHTEX_2]
+
+[HTEZ_2]
+0
+[EHTEZ_2]
+
+[HTCX_2]
+0
+[EHTCX_2]
+
+[HTC_2]
+12632256
+[EHTC_2]
+
+[HTIM_2]
+[EHTIM_2]
+
+[HTCT_2]
+0
+[EHTCT_2]
+
+[HTCTX_2]
+0
+[EHTCTX_2]
+
+[HTCL_2]
+16711680
+[EHTCL_2]
+
+[HTCLX_2]
+0
+[EHTCLX_2]
+
+[HTCV_2]
+8388736
+[EHTCV_2]
+
+[HTCVX_2]
+0
+[EHTCVX_2]
+
+[HTCA_2]
+255
+[EHTCA_2]
+
+[HTCAX_2]
+0
+[EHTCAX_2]
+
+[HTFP_2]
+HM
+[EHTFP_2]
+
+[HTHLP]
+-1
+[EHTHLP]
+
+[HTHLPS]
+start_fr.htm
+[EHTHLPS]
+
+[HTHLPC]
+toc.htm
+[EHTHLPC]
+
+[HTHLPI]
+idx.htm
+[EHTHLPI]
+
+[HTHLPN]
+nav.htm
+[EHTHLPN]
+
+[HTHLPP]
+[EHTHLPP]
+
+[HTHLPO]
+[EHTHLPO]
+
+[HTHLPR]
+0
+[EHTHLPR]
+
+[HTHLPL]
+[EHTHLPL]
+
+[HTHLPT]
+DEFAULT
+[EHTHLPT]
+
+[HTHLPW]
+0
+[EHTHLPW]
+
+[HTHLPA]
+0
+[EHTHLPA]
+
+[HTHLPV]
+0
+[EHTHLPV]
+
+[HTHLPX]
+0
+[EHTHLPX]
+
+[HTHLPF]
+0
+[EHTHLPF]
+
+[HTHLPZ]
+0
+[EHTHLPZ]
+
+[HTGBB_2]
+[EHTGBB_2]
+
+[HTGNB_2]
+[EHTGNB_2]
+
+[HTGBS_2]
+[EHTGBS_2]
+
+[HTIL_2]
+C:\HMPRO\HTML
+[EHTIL_2]
+
+[HTFL_2]
+0
+[EHTFL_2]
+
+[HTFS_2]
+0
+[EHTFS_2]
+
+[WA]
+3
+[EWA]
+
+[WM]
+0
+[EWM]
+
+[WS]
+-1
+[EWS]
+
+[BR]
+[EBR]
+
+[AV]
+0 0 0 0
+[EAV]
+
+[HF]
+[EHF]
+
+[EOPT]
+
+[VH]
+4.51.059-F007;21/04/2000 04:51:00
+[EVH]
+
+[D3]
+0;0;Normal;0;0;0;0;0;Arial;10;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;8;50;;
+1;0;Heading 1;0;-1;0;0;0;Arial;14;80;1;25;25;0;0;0;0;0;0;0;0;;0;0;0;8;50;;
+2;0;Heading 2;0;-1;0;0;0;Arial;12;800000;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;8;50;;
+3;0;Heading 3;0;-1;0;-1;0;Arial;10;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;8;50;;
+4;0;Bulleted;0;0;0;0;0;Arial;10;0;0;0;0;0;0;0;0;0;0;25;-25;Wingdings;175;8388608;10;0;50;;
+5;0;Emphasized;0;-1;0;0;0;Arial;10;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;50;;
+6;0;Framed;0;0;0;0;0;Arial;10;0;0;0;0;0;1;0;0;0;0;0;0;;0;0;0;0;50;;
+7;0;Framed Double;0;0;0;0;0;Arial;10;0;0;0;0;0;1;2;0;0;0;0;0;;0;0;0;0;50;;
+8;0;Framed Thick;0;0;0;0;0;Arial;10;0;0;0;0;0;1;1;0;0;0;0;0;;0;0;0;0;50;;
+9;0;Hanging Indent;0;0;0;0;0;Arial;10;0;0;0;0;0;0;0;0;0;0;50;-50;;0;0;0;0;50;;
+10;0;Glossary Letters;0;-1;0;0;0;Arial;12;800000;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;50;;
+11;0;Glossary Title;0;-1;0;0;0;Arial;14;80;0;2;0;0;0;0;0;1;0;0;0;;0;0;0;0;50;;
+[ED3]
+
+[BN]
+[EBN]
+
+[MD4]
+[EMD]
+
+[MI]
+[EMI]
+
+[WD4]
+main="DEFAULT"(100,100,823,823),27904,(255,255,255),(255,255,232),242,7,0,,1
+[EWD]
+
+[SK]
+000001002003004005006007008009010011000000000000000000000000
+[ESK]
+
+[HT]
+[TOPIC 1]
+[PK]
+190924460001
+[EPK]
+
+[PT]
+T_190924460001
+[EPT]
+
+[MC]
+M
+[EMC]
+
+[MT]
+[EMT]
+
+[PG]
+[EPG]
+
+[BI]
+
+[EBI]
+[CS]
+CS_190924460001
+[ECS]
+[TX]
+
+
+[ETX]
+[EHT]
+
+[FT]
+[EFT]
+
+[EOF]
+9591,
+9562,
+9685,
+0,
+9709,
+9790
+9634,
+9670,
+[NDX]
+[TLI]00009758
+[PKI]00009765
+[CSI]00009772
+[CNI]00009779
+[TXI]00009783
+[BTI]00009790
+[MTI]00009796
+[BEI]00005082
+[WDI]00009365
+[PSI]00008375
+[OPT]00005324
+[MAC]00009334
+[BII]00009803
+[BNI]00009325
+[ENDX]
+00009810
+

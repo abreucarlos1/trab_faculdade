@@ -1,0 +1,1293 @@
+HE3.0000.0000
+[general]
+[project]
+#projectinfo C:\MSolver\Help\calculo.hlpCopyright 1999-2000 BrowseButtons()TRUETRUEFALSETRUE
+[windows]
+#window mainCálculo Numérico167772151677708845836413414241320001
+#window ConteúdoConteúdo16777215167770886135305172320005
+[contents]
+#datatree 
+#link Cálculo NuméricoID1
+#node Métodos
+	#node Sistemas Lineares
+		#link O que vem a serID2
+		#node Métodos Diretos
+			#link GaussID5
+			#link PivotamentoID6
+		#node Métodos Interativos
+			#link JacobiID7
+			#link Gauss-SeidelID8
+	#node Zeros de Função
+		#link O que vem a serID9
+		#link BissecçãoID10
+		#link Newton-RaphsonID11
+	#node Interpolação
+		#link O que vem a serid12
+		#link LagrangeID13
+		#link NewtonID14
+	#node Ajuste de Curvas
+		#link O que vem a serID15
+		#link RetaID16
+		#link QuadraticaID17
+		#link CúbicaID18
+	#node Integração
+		#link O que vem a serID19
+		#link TrapéziosID20
+		#link Simpson 1/3ID21
+		#link Simpson 3/8ID22
+#node Instalação
+	#link RequesitosID23
+	#link InstalandoID24
+#node MatSolver®
+	#node Apresentação
+		#link ApresentaçãoID35
+	#node Tela Principal
+		#link Tela PrincipalID40
+	#node Arquivos
+		#link AbrindoID104
+		#link SalvandoID105
+	#node Teclas de Atalho
+		#link ArquivoID90
+		#link Sistemas LinearesID95
+		#link Zeros de FunçãoID96
+		#link InterpolaçãoID97
+		#link Ajuste de CurvasID98
+		#link IntegraçãoID99
+	#node Sistemas Lineares
+		#link MatrizID41
+		#link GaussID42
+		#link JacobiID44
+	#node Zeros de Função
+		#link BissecçãoID50
+	#node Interpolação
+		#link LagrangeID51
+	#node Ajuste de Curvas
+		#link Ajuste de CurvasID52
+	#node Integração
+		#link MatrizID53
+		#link TrapéziosID54
+		#link Simpson 1/3ID55
+		#link Simpson 3/8ID56
+#node Créditos
+	#link Sobre o SistemaID106
+	#link Sobre os Integrantes do GrupoID107
+#enddatatree 
+[topics]
+#topic ID1Cálculo Numéricomain1Cálculo Numérico;Métodos;Sistemas Lineares;Zeros de Função;Interpolação;Ajuste de Curvas;IntegraçãoCálculo Numérico;Métodos;Sistemas Lineares;Zeros de Função;Interpolação;Ajuste de Curvas;Integração1
+#topic ID2Sistemas Linearesmain2Métodos;Diretos;Interativos;Sistemas LinearesMétodos;Diretos;Interativos;Sistemas Lineares1
+#topic ID3Métodos Diretosmain3Gauss;Pivotamento;MétodosGauss;Pivotamento;Métodos1
+#topic ID4Métodos Interativosmain4Jacobi;Gauss-Seidel;Métodos Interativos;InteraçõesJacobi;Gauss-Seidel;Métodos Interativos;Interações1
+#topic ID5Gaussmain5Pivotamento;método direto;GaussPivotamento;método direto;Gauss1
+#topic ID6Pivotamentomain6Gauss;Método Direto;PivotamentoGauss;Método Direto;Pivotamento1
+#topic ID7Jacobimain7Gauss-Seidel;Método Interativo;JacobiGauss-Seidel;Método Interativo;Jacobi1
+#topic ID8Gauss-Seidelmain8Jacobi;Método Interativo;Gauss-SeidelJacobi;Método Interativo;Gauss-Seidel1
+#topic ID9Zeros de Funçãomain9Bissecção;Newton-Raphson;Zeros de Função;EquaçãoBissecção;Newton-Raphson;Zeros de Função;Equação1
+#topic ID10Bissecçãomain10Bissecção;Newton-RapsonBissecção;Newton-Rapson1
+#topic ID11Newton-Rapsonmain11Bissecção;Newton-RaphsonBissecção;Newton-Raphson1
+#topic id12Interpolaçãomain12Interpolação;Lagrange;Newton;Pontos;EquaçãoInterpolação;Lagrange;Newton;Pontos;Equação1
+#topic ID13Lagrangemain13Lagrange;Interpolação;pontos;EquaçãoLagrange;Interpolação;pontos;Equação1
+#topic ID14Newtonmain14Newton;Interpolação;diferenças divididasNewton;Interpolação;diferenças divididas1
+#topic ID15Ajuste de Curvasmain15Ajuste de Curvas;Reta;Quadrática;CúbicaAjuste de Curvas;Reta;Quadrática;Cúbica1
+#topic ID16Retamain16Reta;AjusteReta;Ajuste1
+#topic ID17Quadráticamain17Quadrática;AjusteQuadrática;Ajuste1
+#topic ID18Cúbicamain18Cúbica;AjusteCúbica;Ajuste1
+#topic ID19Integraçãomain19Integração;Trapézios,Simpson 1/3;Simpson 3/8Integração;Trapézios,Simpson 1/3;Simpson 3/81
+#topic ID20Trapéziosmain20Trapézios;IntegraçãoTrapézios;Integração1
+#topic ID21Simpson 1/3main21Simpson 1/3;IntegraçãoSimpson 1/3;Integração1
+#topic ID22Simpson 3/8main22Simpson 3/8;IntegraçãoSimpson 3/8;Integração1
+#topic ID23Instalação main23Instalação;requesitos do sistema;MatSolver;Instalação;requesitos do sistema;MatSolver;1
+#topic ID24Instalando: Passo 1main24Passo 1;instalandoPasso 1;instalando1
+#topic ID25Instalando: Passo 2main25Instalando;Passo 2Instalando;Passo 21
+#topic ID26Instalando: Passo 3main26Instalando; passo 3Instalando; passo 31
+#topic ID27Instalando: Passo 4main27Instalando;passo 4Instalando;passo 41
+#topic ID28Instalando: Passo 5main28Instalanndo;passo 5Instalanndo;passo 51
+#topic ID29Instalando: Passo 6main29Licensa;instalando;passo 6Licensa;instalando;passo 61
+#topic ID30Instalando: Passo 7main30Instalando; passo 7instalando; passo 71
+#topic ID31Instalando: Passo 8main31Diretório destino;instalando; passo 8Diretório destino;instalando; passo 81
+#topic ID32Instalando: Passo 9main32Instalando; passo 9Instalando; passo 91
+#topic ID33Instalando: Passo 10main33Instalando; passo 10instalando; passo 101
+#topic ID34O programa está instaladomain34instalando; finalinstalando; final1
+#topic ID35Apresentaçãomain35grupo;identifica;sistema;saindo;principalgrupo;identifica;sistema;saindo;principal1
+#topic ID36Grupomaingrupo1
+#topic ID37Identificaçãomainidentifica1
+#topic ID38Sobre o Sistemamainsistema1
+#topic ID39Saindomainsaindo1
+#topic ID40Tela PrincipalmainPrincipalprincipal; telaPrincipal; tela1
+#topic ID41Matriz de Entradamain41Matriz entrada; Gauss; Jacobi;Direto;indireto;CTRL+MMatriz entrada; Gauss; Jacobi;Direto;indireto;CTRL+M1
+#topic ID42Gaussmain42Gauss;CTRL+GGauss;CTRL+G1
+#topic ID43Não implementadomain431
+#topic ID44Jacobimain44Gauss; Jacobi;CTRL+JGauss; Jacobi;CTRL+J1
+#topic ID45Paleta Sistemas Linearesmain45Sistemas LinearesSistemas Lineares1
+#topic ID47Paleta de Interpolaçãomain47Interpolaçãointerpolação1
+#topic ID46Paleta Zeros de Funçãomain46Zeros de FunçãoZeros de Função1
+#topic ID48Paleta de Ajuste de Curvasmain48Ajuste de CurvasAjuste de Curvas1
+#topic ID49Paleta de Integraçãomain49IntegraçãoIntegração1
+#topic ID50Bissecçãomain50Bissecção; Intervalos;CTRL+BBissecção; Intervalos;CTRL+B1
+#topic ID51Lagrangemain51Lagrange;CTRL+LLagrange;CTRL+L1
+#topic ID52Ajustemain52Ajuste de Curvas;Gauss;CTRL+AAjuste de Curvas;Gauss;CTRL+A1
+#topic ID53Matriz Integraçãomain53Integração;Direto;CTRL+IIntegração;direto;CTRL+I1
+#topic ID54Trapéziosmain54Trapézios;CTRL+TTrapézios;CTRL+T1
+#topic ID55Simpson 1/3main55Simpson 1/3;CTRL+USimpson 1/3;CTRL+U1
+#topic ID56Simpson 3/8main56Simpson 3/8;CTRL+WSimpson 3/8;CTRL+W1
+#topic ID57Trackbarmain571
+#topic ID58Tamanho da matrizmain581
+#topic ID59MatrizValoresmain591
+#topic ID60Limparmain601
+#topic ID61Diretomain611
+#topic ID62Sairmain621
+#topic ID63Matriz Triangularmain631
+#topic ID64Resultadomain641
+#topic ID65Passomain65Passo a passopasso a passo1
+#topic ID66Cálculosmain661
+#topic ID67Matriz Passosmain671
+#topic ID68Matriz Interaçõesmain681
+#topic ID69Erromain691
+#topic ID70Interaçõesmain701
+#topic ID71Gráficomain711
+#topic ID72Equaçãomain721
+#topic ID73Intervalomain73IntervaloIntervalo1
+#topic ID74Raizesmain741
+#topic ID75Intervalo Positivomain751
+#topic ID78Matriz Pontosmain781
+#topic ID76Intervalo Negativomain761
+#topic ID77Editamain771
+#topic ID79Fórmulamain791
+#topic ID80P(x)main801
+#topic ID81Calculosmain811
+#topic ID82Somatoriomain821
+#topic ID83Retamain831
+#topic ID84Quadráticamain841
+#topic ID85Cúbicamain851
+#topic ID86Detalhesmain861
+#topic ID87Gaussmain871
+#topic ID88Pontosmain881
+#topic ID89Intervalomain891
+#topic ID90Menu Arquivomain90Arquivo;Alt+A;menuArquivo;Alt+A;Menu1
+#topic ID91Abrirmain911
+#topic ID92Salvarmain921
+#topic ID93Voltarmain931
+#topic ID94Sairmain941
+#topic ID95Menu Sistemas Linearesmain95Menu;Sistemas Lineares;Alt+SMenu;Sistemas Lineares;Alt+S1
+#topic ID96Menu Zeros de Funçãomain96Menu;Zeros de Função;Alt+ZMenu;Zeros de Função;Alt+Z1
+#topic ID97Menu Interpolaçãomain97Menu;Interpolação;Lagrange,Alt+IMenu;Interpolação;Lagrange,Alt+I1
+#topic ID98Menu  Ajuste de Curvasmain98Menu; Ajuste de Curvas;Alt+UMenu; Ajuste de Curvas;Alt+U1
+#topic ID99Menu Integraçãomain99Menu;Integração;Alt+NMenu;Integração;Alt+N1
+#topic ID100Botão Imprimirmain1001
+#topic ID101Copiar para transferenciamain1011
+#topic ID102Salvar arquivomain1021
+#topic ID103Voltarmain1031
+#topic ID104Abrindomain104Abrindo;Arquivos;Filtro;métodoAbrindo;Arquivos;Filtro;método1
+#topic ID105Salvandomain105Salvando;arquivo;métodos;filtroSalvando;arquivo;métodos;filtro1
+#topic ID106Sistemamain106Sistema; SobreSistema; Sobre1
+#topic ID107Integrantesmain107Sobre; integrantessobre; integrantes1
+#topic ID108Adelitamain1080
+#topic ID109Alinemain1090
+#topic ID110Amandamain1100
+#topic ID111Gustavomain1110
+#topic ID112Edevalmain1120
+#topic ID113Carlosmain1130
+#topic ID114Joãomain1140
+[code]
+#start 0
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20\par
+\pard\qc\cf2\lang1033\fs24 [SINGLE][BELOW]C\'e1lculo Num\'e9rico[ENDST]\par
+\par
+\pard\fs20\tab\cf1\b0 S\'e3o m\'e9todos que tem muita utilidade em \'e1reas de Engenharia e de Tecnologia, onde n\'e3o \'e9 poss\'edvel os resultados serem obtidos de forma anal\'edtica.\par
+\tab Os m\'e9todos s\'e3o divididos em:\par
+\tab\tab\cf3\b\strike Sistemas Lineares[link=ID2$]\cf1\b0\strike0 ;\par
+\tab\tab\cf3\b\strike Zeros de Fun\'e7\'e3o[link=ID9$]\cf1\b0\strike0 ;\par
+\tab\tab\cf3\b\strike Interpola\'e7\'e3o[link=id12$]\cf1\b0\strike0 ;\par
+\tab\tab\cf3\b\strike Ajuste de Curvas[link=ID15$]\cf1\b0\strike0  e\par
+\tab\tab\cf3\b\strike Integra\'e7\'e3o[link=ID19$]\cf1\b0\strike0 .\par
+\tab Cada m\'e9todo se presta a opera\'e7\'f5es espec\'edficas, dependendo de que o usu\'e1rio necessita.\par
+\lang1046\b\par
+}
+#end 0
+#start 1
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]Sistemas Lineares[ENDST]\par
+\par
+\pard\cf2\tab\b0\fs20 Sistemas Lineares s\'e3o utilizados para resolu\'e7\'e3o de matrizes quadradas, onde o m\'e9todo de Kramer se torna imposs\'edvel a utiliza\'e7\'e3o, devido ao tempo gasto, que pode, dependendo do n\'famero de vari\'e1veis, levar dias para serem resolvidas.\par
+\tab\'c9 dividido em 2 grupos, ou m\'e9todos:\par
+\tab\tab\cf3\b\strike M\'e9todos Diretos[link=ID3$]\cf2\b0\strike0  e\par
+\tab\tab\cf3\b\strike M\'e9todos Interativos[link=ID4$]\cf2\b0\strike0 .\b\par
+}
+#end 1
+#start 2
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]M\'e9todos Diretos[ENDST]\par
+\pard\par
+\cf2\b0\fs20\tab S\'e3o m\'e9todos onde o usu\'e1rio tem os resultados de forma direta, ou seja, os c\'e1lculos s\'e3o finitos e os resultados s\'e3o dados de forma direta e n\'e3o por aproxima\'e7\'f5es.\par
+\tab Compreende os m\'e9todos diretos:\par
+\tab\tab\cf3\b\strike Gauss[link=ID5$]\cf2\b0\strike0  e \par
+\tab\tab\cf3\b\strike Pivotamento[link=ID6$]\cf2\b0\strike0 .\cf1\b\fs24\par
+\pard\qc\cf2\fs20\par
+\par
+}
+#end 2
+#start 3
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]M\'e9todos Interativos[ENDST]\par
+\par
+\pard\cf2\fs20\tab\b0 S\'e3o m\'e9todos onde o usu\'e1rio define o n\'famero de intera\'e7oes e o erro entre os c\'e1lculos, por isso o nome de m\'e9todos Interativos. \par
+\tab Compreende nos seguintes m\'e9todos:\par
+\tab\tab\cf3\b\strike Jacobi[link=ID7$]\cf2\b0\strike0  e\par
+\tab\tab\cf3\b\strike Gauss-Seidel[link=ID8$]\cf2\b0\strike0 .\b\par
+\pard\qc\par
+}
+#end 3
+#start 4
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]Gauss[ENDST]\par
+\par
+\pard\cf2\b0\fs20\tab Este \cf3\strike m\'e9todo direto[link=ID3$]\cf2\strike0  tem como caracter\'edstica a resolu\'e7\'e3o de matrizes quadradas mas que n\'e3o deve possuir zeros na sua diagonal principal em cada fase dos c\'e1lculos.\par
+\tab Caso a matriz possuir zeros na diagonal principal, o m\'e9todo utilizado deve ser o de \cf3\b\strike Pivotamento[link=ID6$]\cf2\b0\strike0 . \b\par
+}
+#end 4
+#start 5
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]Pivotamento[ENDST]\par
+\par
+\pard\cf2\fs20\tab\b0 Este \cf3\strike m\'e9todo direto[link=ID3$]\cf2\strike0  tem como caracter\'edstica a resolu\'e7\'e3o de matrizes quadradas que possuam zeros em sua diagonal principal, diferentemente de \cf3\b\strike Gauss[link=ID5$]\cf2\strike0 .\par
+\tab\b0 A diferen\'e7a entre este m\'e9todo e o m\'e9todo de Gauss, reside apenas em trocar as linhas de forma que os valores maiores (em m\'f3dulo) s\'e3o dispostos na diagonal principal.\par
+\tab Caso duas linhas possuirem valores de mesma magnitude para a diagonal principal, o sistema n\'e3o ir\'e1 convergir. Um exemplo \'e9 duas linhas iguais.\b\par
+\pard\qc\par
+}
+#end 5
+#start 6
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]Jacobi[ENDST]\par
+\par
+\pard\cf2\b0\fs20\tab Este m\'e9todo interativo calcula matrizes quadradas com uma boa rapidez e precis\'e3o, que pode ser ajustada pelo usu\'e1rio.\par
+\tab A palavra intera\'e7\'e3o vem da possibilidade em se ajustar quantos passos ele ir\'e1 efetuar para fazer os c\'e1lculos, logicamente, quanto mais intera\'e7\'f5es, mais preciso ser\'e1 o c\'e1lculo.\par
+\tab Este m\'e9todo se diferencia de \cf3\b\strike Gauss-Seidel[link=ID8$]\cf2\b0\strike0 , devido que os c\'e1lculos das vari\'e1veis s\'e3o feitas com os valores anteriormente calculados.\b\par
+}
+#end 6
+#start 7
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]Gauss-Seidel[ENDST]\par
+\par
+\pard\cf2\fs20\tab\b0 Este m\'e9todo interativo funciona da mesma maneira que Jacobi, com a diferen\'e7a de que os valores utilizados para os c\'e1lculos, s\'e3o os que foram calculados atualmente.\par
+\tab\'c9 muito mais rapido que \cf3\b\strike Jacobi[link=ID7$]\cf2\b0\strike0 .\b\par
+}
+#end 7
+#start 8
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]Zeros de Fun\'e7\'e3o\par
+[ENDST]\par
+\par
+\pard\cf2\b0\fs20\tab Consiste em m\'e9todos em que o usu\'e1rio tem uma equa\'e7\'e3o e deseja saber em que intervalo ela cruza o eixo X, ou seja, quando Y=0.\par
+\tab Existem dois m\'e9todos:\par
+\tab\tab\cf3\b\strike Bissec\'e7\'e3o[link=ID10$]\cf2\b0\strike0  e \par
+\tab\tab\cf3\b\strike Newton-Raphson[link=ID11$]\cf2\b0\strike0 .\b\par
+}
+#end 8
+#start 9
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]Bissec\'e7\'e3o[ENDST]\par
+\par
+\pard\cf2\b0\fs20\tab Este m\'e9todo tem como caracter\'edstica a divis\'e3o do intervalo dado em dois, testando para ver qual \'e9 o melhor, ou seja, que est\'e1 mais pr\'f3ximo do zero, an\'e1logo para se encontrar a p\'e1gina de um livro, dividindo-se em duas partes sempre at\'e9 encontrar a p\'e1gina que se deseja.\par
+\tab Este m\'e9todo \'e9 mais lento que o \cf3\b\strike Newton-Raphson.[link=ID11$]\cf2\strike0\par
+}
+#end 9
+#start 10
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]Newton-Raphson[ENDST]\par
+\par
+\pard\cf2\b0\fs20\tab Este m\'e9todo tem como caracter\'edstica o emprego da derivada em seus c\'e1lculos.\par
+\tab Muito mais rapido e preciso que \cf3\b\strike Bissec\'e7\'e3o[link=ID10$]\cf2\b0\strike0 .\b\par
+\pard\qc\par
+}
+#end 10
+#start 11
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]Interpola\'e7\'e3o[ENDST]\par
+\par
+\pard\cf2\b0\fs20\tab A interpola\'e7\'e3o tem como caracter\'edstica\cf1\b\fs24  \cf2\b0\fs20 de retornar uma equa\'e7\'e3o a partir dos pares de pontos dados.\par
+\tab Tem os seguintes m\'e9todos:\par
+\tab\tab\cf3\b\strike Lagrange[link=ID13$]\cf2\strike0  \b0 e\par
+\tab\tab\cf3\b\strike Newton[link=ID14$]\cf2\b0\strike0 .\b\par
+}
+#end 11
+#start 12
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]Lagrange[ENDST]\par
+\par
+\pard\cf2\b0\fs20\tab Atrav\'e9s dos pontos dados, obt\'e9m-se a equa\'e7\'e3o que gerou aquela fun\'e7\'e3o. \b\par
+}
+#end 12
+#start 13
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]Newton[ENDST]\par
+\par
+\pard\cf2\b0\fs20\tab Este m\'e9todo \'e9 conhecido tamb\'e9m como m\'e9todo das diferen\'e7as divididas.\par
+\tab Muito mais rapido que \cf3\strike Lagrange[link=ID13$]\cf2\strike0  e com \'f3tima confiabilidade.\b\par
+\pard\qc\par
+}
+#end 13
+#start 14
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]Ajuste de Curvas[ENDST]\par
+\par
+\pard\cf2\fs20\par
+\b0\tab Atrav\'e9s dos pontos dados, pode-se obter uma melhor curva para determindada equa\'e7\'e3o. Atrav\'e9s da visualiza\'e7\'e3o da curva podemos escolher a equa\'e7\'e3o que mais se adequa e ela.\par
+\tab Este m\'e9todo est\'e1 dividido em 3 sistemas:\par
+\tab\tab\cf3\strike Reta[link=ID16$]\cf2\strike0 : onde com somente 2 pontos podemos obter a equa\'e7\'e3o que gerou os pontos (com uma boa aproxima\'e7\'e3o);\par
+\tab\tab\cf3\strike Quadr\'e1tica[link=ID17$]\cf2\strike0 : \'e9 necess\'e1rio 3 ou mais pontos para se determinar que esta \'e9 uma curva para determinar a equa\'e7\'e3o.\par
+\tab\tab\cf3\strike C\'fabica[link=ID18$]\cf2\strike0 : tamb\'e9m \'e9 necess\'e1rio 3 ou mais pontos para determinar uma equa\'e7\'e3o c\'fabica.\b\par
+}
+#end 14
+#start 15
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]Reta[ENDST]\par
+\par
+\pard\cf2\b0\fs20\tab Com apenas dois pontos pode-se determinar a equa\'e7\'e3o da reta, que \'e9 dada por:\par
+Y=Ax+B.\par
+\b\par
+\par
+}
+#end 15
+#start 16
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]Quadr\'e1tica[ENDST]\par
+\par
+\pard\cf2\b0\fs20\tab Com 3 ou mais pontos, pode-se determinar se a curva gerada pelos pontos dados \'e9 de uma equa\'e7\'e3o quadr\'e1tica.\b\par
+}
+#end 16
+#start 17
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]C\'fabica[ENDST]\par
+\par
+\pard\cf2\b0\fs20\tab Assim como na equa\'e7\'e3o \cf3\strike quadr\'e1tica[link=ID17$]\cf2\strike0 , com 3 ou mais pontos \'e9 poss\'edvel obter a curva c\'fabica a partir dos pontos dados.\b\par
+\pard\qc\par
+}
+#end 17
+#start 18
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]Integra\'e7\'e3o[ENDST]\par
+\par
+\pard\cf2\b0\fs20\tab S\'e3o m\'e9todos em que \'e9 poss\'edvel obter a integral de um intervalo, ou conjunto de pontos onde n\'e3o \'e9 poss\'edvel obter a integral de forma anal\'edtica.\par
+\tab Existem 3 m\'e9todos para se obter a integral:\par
+\tab\tab\cf3\strike Tr\'e1p\'e9zios[link=ID20$]\cf2\strike0 ;\par
+\tab\tab\cf3\strike Simpson 1/3[link=ID21$]\cf2\strike0  e\par
+\tab\tab\cf3\strike Simpson 3/8[link=ID22$]\cf2\strike0 .\par
+\tab\par
+ \b\par
+\pard\qc\par
+}
+#end 18
+#start 19
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]Trap\'e9zios[ENDST]\par
+\par
+\pard\cf2\b0\fs20\tab Atrav\'e9s deste m\'e9todo, que segue a f\'f3rmula dos trap\'e9zios, (B+b/2)*h, para calcular a \'e1rea sob o gr\'e1fico.\par
+\tab Quanto mais dividido o intervalo, mais preciso ser\'e1 o resultado.\b\par
+}
+#end 19
+#start 20
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]Simpson 1/3[ENDST]\par
+\par
+\pard\cf2\b0\fs20\tab Este m\'e9todo divide o intervalo de 3 em 3, por isso o 1/3.\par
+\tab Tem uma boa precis\'e3o, melhor que a regra dos \cf3\strike trap\'e9zios[link=ID20$]\cf2\strike0 .\b\par
+\pard\qc\par
+}
+#end 20
+#start 21
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]Simpson 3/8[ENDST]\par
+\par
+\pard\cf2\b0\fs20\tab Segue o mesmo racioc\'ednio do \cf3\strike Simpson 1/3[link=ID21$]\cf2\strike0 .\b\par
+\pard\qc\par
+}
+#end 21
+#start 22
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}{\f1\fswiss\fcharset0 Arial;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]Instala\'e7\'e3o: Requesitos do Sistema[ENDST]\cf2\fs20\par
+\par
+\pard\b0\tab Para instalar o sistema MatSolver\cf0\f1\fs24\'ae\cf2\f0\fs20  em seu sistema \'e9 necess\'e1rio:\par
+\tab\tab * M\'e1quina com processador 486 ou melhor;\par
+\tab\tab * Espa\'e7o em disco rig\'eddo de 3 megas;\par
+\tab\tab * Mem\'f3ria dispon\'edvel de 4 megas;\par
+\tab\tab * Drive de CD-Rom de dupla velocidade ou melhor;\par
+\tab\tab * Monitor VGA com resolu\'e7\'e3o de 800X600 e 16 cores (m\'ednimo);\par
+\tab\tab * Sistema Operacional Windows 95 ou superior;\par
+\tab\tab * Mouse compat\'edvel com PS/2;\par
+\tab\tab * Impressora (opcional e n\'e3o requerida).\par
+\b\par
+}
+#end 22
+#start 23
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}{\f1\fswiss\fcharset0 Arial;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]Instalando: Passo 1[ENDST]\par
+\par
+\pard\cf2\b0\fs20\tab Para instalar o programa MATSolver\cf0\f1\fs24\'ae\cf2\f0\fs20  siga os seguintes passos:\par
+\tab Clique no bot\'e3o iniciar, do lado esquerdo e abaixo do seu monitor, e clique em seguida em Executar, como mostra a figura:\par
+\par
+\tab [Bitmap=C:\\MSolver\\Help\\iniciar.bmp/]\par
+\par
+\tab\tab\tab\cf3\strike >>[link=ID25$]\cf2\strike0\par
+\par
+\tab\b\par
+}
+#end 23
+#start 24
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]Instalando: Passo 2[ENDST]\par
+\par
+\pard\cf2\b0\fs20\tab Em seguida clique no bot\'e3o Procurar..., como mostra na figura abaixo:\par
+\par
+\tab [Bitmap=C:\\MSolver\\Help\\executar.bmp/]\b\par
+\par
+\tab\tab\tab\cf3\strike >>[link=ID26$]\cf2\strike0\par
+\par
+}
+#end 24
+#start 25
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}{\f1\fswiss\fcharset0 Arial;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]Instalando: Passo 3\par
+[ENDST]\par
+\par
+\pard\par
+\cf2\fs20\tab\b0 D\'ea um duplo clique no \'edcone do Meu Computador:\par
+\tab\par
+\tab [Bitmap=C:\\MSolver\\Help\\Procurar.bmp/]\par
+\par
+\tab Escolha o drive de CD-Rom onde se encontra o CD do MATSolver\cf0\f1\fs24\'ae\cf2\f0\fs20  (normalmente, em sistemas com 1 CD-Rom e um HD, costuma ser a unidade D).\par
+\tab Encontre o arquivo Setup.exe, d\'ea um clique neste arquivo e clique em OK, o sistema ir\'e1 come\'e7ar o processo de instala\'e7\'e3o.\par
+\par
+\tab\tab\tab\cf3\strike >>[link=ID27$]\cf2\b\strike0\par
+}
+#end 25
+#start 26
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]Instalando: Passo 4[ENDST]\cf2\fs20\par
+\par
+\pard\b0\tab Aparecer\'e1 uma tela como esta:\par
+\tab\par
+\tab [Bitmap=C:\\MSolver\\Help\\Setup1.bmp/]\par
+\par
+\tab indicando que o processo de instala\'e7\'e3o est\'e1 progredindo.\par
+\par
+\tab\tab\tab\cf3\strike >>[link=ID28$]\cf2\b\strike0\par
+}
+#end 26
+#start 27
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]Instala\'e7\'e3o: Passo 5[ENDST]\par
+\par
+\pard\cf2\fs20\par
+\tab\b0 Em seguida, ir\'e1 aparecer uma tela de licensa, como esta:\par
+\tab\par
+\tab [Bitmap=C:\\MSolver\\Help\\setup2.bmp/]\par
+\par
+\tab\tab\tab\tab\cf3\strike >>[link=ID29$]\cf2\b\strike0\par
+}
+#end 27
+#start 28
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]Instalando: Passo 6[ENDST]\par
+\par
+\pard\cf2\fs20\tab\b0 Caso n\'e3o concorde com o Termo de Licensa, clique em No, caso contr\'e1rio clique em Yes.\par
+\tab Se clicar em No, aparece a seguinte tela:\par
+\par
+\tab [Bitmap=C:\\MSolver\\Help\\setup3.bmp/]\par
+\par
+\tab Escolhendo Resume, pode-se continuar a instala\'e7\'e3o, caso clique em Exit, sai do programa de instala\'e7\'e3o.\par
+\par
+\tab\tab\tab\cf3\strike >>[link=ID30$]\cf2\b\strike0\par
+\pard\qc\par
+}
+#end 28
+#start 29
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]Instalando: Passo 7[ENDST]\par
+\par
+\pard\cf2\b0\fs20\tab Clicando em Yes, aparece a tela de personaliza\'e7\'e3o do Nome e Companhia, e como padr\'e3o, aparece o Nome e a Companhia em que o Windows foi registrado.\par
+\par
+\tab [Bitmap=C:\\MSolver\\Help\\setup4.bmp/]\par
+\par
+\tab\tab\tab\cf3\strike >>[link=ID31$]\cf2\b\strike0\par
+\pard\qc\par
+}
+#end 29
+#start 30
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]Instalando: Passo 8[ENDST]\par
+\par
+\pard\cf2\fs20\par
+\b0\tab Nesta tela, o usu\'e1rio pode escolher o diret\'f3rio destino do programa ap\'f3s instalado, ou se preferir, manter o padr\'e3o, que \'e9 o recomendado.\par
+\par
+\tab [Bitmap=C:\\MSolver\\Help\\setup5.bmp/]\par
+\par
+\tab\tab\tab\cf3\strike >>[link=ID32$]\cf2\b\strike0\par
+}
+#end 30
+#start 31
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]Instalando: Passo 9[ENDST]\par
+\par
+\pard\cf2\fs20\tab\b0 Nesta tela, o usu\'e1rio pode escolher a pasta onde ir\'e1 figurar o \'edcone no menu Iniciar/Programas, ou deixar o padr\'e3o, que \'e9 o recomendado.\par
+\par
+\tab [Bitmap=C:\\MSolver\\Help\\setup6.bmp/]\par
+\par
+\tab\tab\tab\cf3\strike >>[link=ID33$]\cf2\b\strike0\par
+\par
+}
+#end 31
+#start 32
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]Instalando: Passo 10[ENDST]\par
+\par
+\pard\cf2\b0\fs20\tab Nesta tela, mostra as configura\'e7\'f5es que o usu\'e1rio escolheu, sendo esta a ultima chance para voltar e consertar algo que esteja errado.\par
+\tab Clique em Next e o processo de instala\'e7\'e3o ir\'e1 continuar.\par
+\tab\tab\par
+\tab [Bitmap=C:\\MSolver\\Help\\setup7.bmp/]\par
+\par
+\tab\tab\tab\tab\cf3\strike >>[link=ID34$]\cf2\b\strike0\par
+}
+#end 32
+#start 33
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}{\f1\fswiss\fcharset0 Arial;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]Instalando: Final[ENDST]\par
+\par
+\pard\cf2\fs20\tab\b0 Finalmente programa est\'e1 instalado no seu sistema, para inicia-lo, clique em Iniciar/Programas e no \'edcone do MATSolver\cf0\f1\fs24\'ae\cf2\f0\fs20 , como mostra a figura abaixo:\par
+\par
+\tab [Bitmap=C:\\MSolver\\Help\\Final.bmp/]\par
+\par
+\tab\tab\cf3\strike Sair[link=!CloseWindow()$]\cf2\strike0 .\par
+\tab\b\par
+}
+#end 33
+#start 34
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]Apresenta\'e7\'e3o[ENDST]\par
+\par
+\pard\cf2\b0\fs20\tab Esta \'e9 a tela de apresenta\'e7\'e3o, onde est\'e1 o nome dos integrantes do grupo, bem como os bot\'f5es iniciar e sair.\par
+\pard\qc [Bitmap=C:\\MSolver\\Help\\apresenta.bmp/]\cf1\b\fs24\par
+\cf2\fs20\par
+}
+#end 34
+#start 35
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Grupo de apresenta\'e7\'e3o\par
+\par
+}
+#end 35
+#start 36
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Identifica\'e7\'e3o dos componentes do grupo\par
+\par
+}
+#end 36
+#start 37
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Mostra o que \'e9 c\'e1lculo num\'e9rico\par
+}
+#end 37
+#start 38
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Encerra o programa\par
+\par
+}
+#end 38
+#start 39
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0 [SINGLE][BELOW]Tela Principal[ENDST]\par
+\par
+\pard\cf2\fs20\tab\b0 Esta \'e9 a tela principal, onde o usu\'e1rio escolhe o m\'e9todo que mais lhe convier.\par
+\pard\qc [Bitmap=C:\\MSolver\\Help\\principal.bmp/]\b\par
+}
+#end 39
+#start 40
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20\tab Inicia a matriz de entrada para Gauss e Jacobi.\par
+\pard\qc [Bitmap=D:\\MSolver\\Help\\MatrizSis.bmp/]\par
+\par
+\pard\b0\tab Atrav\'e9s da matriz de entrada, podemos digitar os valores nas c\'e9lulas da matriz. Ap\'f3s o preenchimento da mesma, pode-se escolher dois modos de resolu\'e7\'e3o:\par
+\tab - \cf2\ul Direto[link=ID61$]\cf1\ul0 :onde se efetua os c\'e1lculos diretamente, que no caso de Jacobi, utiliza-se os valores padr\'f5es de intera\'e7\'f5es e de erro.\par
+\tab - Indireto: Atrav\'e9s das paletas logo abaixo do menu, onde \'e9 poss\'edvel alterar os valores de intera\'e7\'f5es e de erro.\par
+\tab Ao clicar na matriz, os bot\'f5es de c\'e1lculo e Limpar iluminam-se, ou seja, ficam habilitados.\par
+\tab Esta tela pode ser acessada diretamente em qualquer ponto do programa utilizando-se as teclas aceleradoras: CTRL+M.\b\par
+\par
+\par
+}
+#end 40
+#start 41
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20\tab M\'e9todo de Gauss, para resolu\'e7\'e3o de matrizes quadradas que n\'e3o possuam zeros em sua diagonal principal.\par
+\pard\qc [Bitmap=D:\\MSolver\\Help\\Gauss.bmp/]\par
+\pard\b0\par
+\tab Este \'e9 um m\'e9todo direto de resolu\'e7\'e3o de matrizes.\par
+\tab Ao clicar na matriz de entrada, os bot\'f5es calcular e limpar iluminam-se. Logo ap\'f3s completar a tabela com os valores e clicar em calcular, o bot\'e3o passos ir\'e1 iluminar-se e ir\'e1 aparecer na matriz triangulada os valores calculados, bem como os resultados.\par
+\tab Caso queira, poder\'e1 ver os passos efetuados durante os c\'e1lculos, clicando-se no bot\'e3o passo a passo.\par
+\tab Esta tela pode ser acessada diretamente em qualquer ponto do programa\par
+utilizando-se as teclas aceleradoras: CTRL+G.\b\par
+}
+#end 41
+#start 42
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20\tab M\'e9todo n\'e3o implementado neste sistema.\par
+\par
+}
+#end 42
+#start 43
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20\tab M\'e9todo de Jacobi para resolu\'e7\'e3o de matrizes quadradas, onde o usu\'e1rio entra com as intera\'e7\'f5es.\par
+\pard\qc [Bitmap=D:\\MSolver\\Help\\jacobi.bmp/]\par
+\pard\b0\par
+\tab Este m\'e9todo \'e9 interativo, pois o usu\'e1rio pode definir tanto o erro quanto as intera\'e7\'f5es.\par
+\tab Da mesma forma que \cf2\ul Gauss[link=ID42$]\cf1\ul0 , ele calcula matrizes quadradas.\par
+\tab Na matriz passo \'e9 efetuada as trocas das linhas, para que os c\'e1lculos sejam processados. Na matriz intera\'e7\'f5es temos os c\'e1lculos propriamente dito.\par
+\tab Ao clicar na matriz de entrada, os bot\'f5es calcula e limpar iluminam-se.\par
+\tab Ap\'f3s o preenchimento da matriz de entrada e ao clicar o bot\'e3o calcular, o bot\'e3o passos ilumina-se e com isto, podemos verificar os c\'e1lculos.\par
+\tab Esta tela pode ser acessada diretamente em qualquer ponto do programa\par
+utilizando-se as teclas aceleradoras: CTRL+J. \b\par
+}
+#end 43
+#start 44
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20\tab Mostra a paleta com os m\'e9todos dispon\'edveis em Sistemas Lineares\par
+\pard\qc [Bitmap=C:\\MSolver\\Help\\Sislin.bmp/]\par
+}
+#end 44
+#start 45
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20\tab Mostra a paleta com os m\'e9todos de Interpola\'e7\'e3o\par
+\pard\qc [Bitmap=C:\\MSolver\\Help\\Interpola\'e7\'e3o.bmp/]\par
+}
+#end 45
+#start 46
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20\tab Mostra a paleta com os m\'e9todos dispon\'edveis em Zeros de Fun\'e7\'e3o\par
+\pard\qc [Bitmap=C:\\MSolver\\Help\\zeros.bmp/]\par
+}
+#end 46
+#start 47
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20\tab Mostra a paleta de Ajuste de Curvas.\par
+\pard\qc\tab [Bitmap=C:\\MSolver\\Help\\Ajuste.bmp/]\par
+}
+#end 47
+#start 48
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20\tab Mostra a paleta com os m\'e9todos de Integra\'e7\'e3o.\par
+\pard\qc [Bitmap=C:\\MSolver\\Help\\Integra.bmp/]\par
+}
+#end 48
+#start 49
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20\tab M\'e9todo da Bissec\'e7\'e3o, onde o usu\'e1rio entra com a equa\'e7\'e3o e obt\'e9m os zeros em um determinado intervalo.\par
+\pard\qc [Bitmap=C:\\MSolver\\Help\\Bissec\'e7\'e3o.bmp/]\par
+\pard\b0\par
+\tab O usu\'e1rio entra com a equa\'e7\'e3o que deseja verificar os zeros que ela possui em determinado intervalo. Ao clicar na matriz equa\'e7\'e3o, os bot\'f5es calcular e limpar iram se iluminar.\par
+\tab Ao clicar no bot\'e3o calcular, uma \cf2\strike janela[link=ID73$]\cf1\strike0  ir\'e1 aparecer, indicando ao usu\'e1rio os intervalos dispon\'edveis, bastando clicar na c\'e9lula do intervalo escolhido, ou se preferir, pode-se editar os intervalos no campo Edita Intervalo.\par
+\tab Clicando-se no bot\'e3o OK, verifica-se se o intervalo \'e9 v\'e1lido e ent\'e3o, os c\'e1lculos s\'e3o efetuados.\par
+\tab Neste ponto, o bot\'e3o passo est\'e1 iluminado e o usu\'e1rio poder\'e1 observar o que ocorreu durante os c\'e1lculos.\par
+\tab No gr\'e1fico, aparece uma curva, gerada pela equa\'e7\'e3o dada pelo usu\'e1rio. \par
+\tab Esta tela pode ser acessada diretamente em qualquer ponto do programa\par
+utilizando-se as teclas aceleradoras: CTRL+B.\b\par
+\par
+}
+#end 49
+#start 50
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20\tab M\'e9todo de Lagrange, onde o usu\'e1rio entra com pares de pontos X Y(coordenadas) e obt\'e9m o resultado de um ponto espec\'edficado.\par
+\pard\qc [Bitmap=C:\\MSolver\\Help\\Lagrange.bmp/]\par
+\pard\b0\par
+\tab Com este m\'e9todo, pode-se chegar ao resultado de um ponto que n\'e3o esteja na tabela, ou seja, ele calcula a equa\'e7\'e3o e mostra o resultado do ponto especificado, atrav\'e9s dos pontos dados.\par
+\tab Esta tela pode ser acessada diretamente em qualquer ponto do programa\par
+utilizando-se as teclas aceleradoras: CTRL+L.\par
+\tab\b\par
+}
+#end 50
+#start 51
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20\tab M\'e9todo de ajuste de curvas, onde o usu\'e1rio determina pares de pontos coordenados e obt\'e9m a equa\'e7\'e3o que mais se adequa aos pontos dados.\par
+\pard\qc [Bitmap=C:\\MSolver\\Help\\ajustecur.bmp/]\par
+\pard\par
+\tab\b0 Com apenas dois pares de pontos \'e9 poss\'edvel determinar um reta, portanto, caso tenha-se apenas dois pares de pontos, o bot\'e3o iluminado ser\'e1 o da Reta, sendo poss\'edvel a determina\'e7\'e3o da equa\'e7\'e3o da reta que mais se ajusta aos pontos determinados.\par
+\tab Com apenas tres pares de pontos, al\'e9m do bot\'e3o da Reta, estar\'e1 iluminado o bot\'e3o Quadr\'e1tica, onde pode-se obter a equa\'e7\'e3o quadr\'e1tica daqueles pontos.\par
+\tab Com 4 ou mais pares de pontos, al\'e9m dos bot\'f5es anteriores o bot\'e3o C\'fabica tamb\'e9m ir\'e1 se iluminar, possibilitando a visualiza\'e7\'e3o da equa\'e7\'e3o de melhor ajuste.\par
+\tab O bot\'e3o \cf2\strike detalhes[link=ID86$]\cf1\strike0  quando clicado, mostra uma janela com os c\'e1lculos intermedi\'e1rios realizados, pois este m\'e9todo se utiliza do \cf2\strike M\'e9todo de Gauss[link=ID5$]\cf1\strike0  para determinar a equa\'e7\'e3o.\par
+\tab Esta tela pode ser acessada diretamente em qualquer ponto do programa\par
+utilizando-se as teclas aceleradoras: CTRL+A.\par
+\tab\b\par
+}
+#end 51
+#start 52
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20\tab Inicia a matriz de entrada para os m\'e9todos de integra\'e7\'e3o.\par
+\pard\qc [Bitmap=C:\\MSolver\\Help\\matrizinte.bmp/]\par
+\par
+\pard\b0\tab Atrav\'e9s da matriz de entrada, podemos digitar os valores nas c\'e9lulas da matriz. Ap\'f3s o preenchimento da mesma, pode-se escolher dois modos de resolu\'e7\'e3o:\par
+\tab - \cf2\ul Direto[link=ID61$]\cf1\ul0 :onde se efetua os c\'e1lculos diretamente.\par
+\tab - Indireto: Atrav\'e9s das paletas logo abaixo do menu.\par
+\tab Ao clicar na matriz, os bot\'f5es de Op\'e7\'f5es  iluminam-se, ou seja, ficam habilitados.\par
+\tab Esta tela pode ser acessada diretamente em qualquer ponto do programa utilizando-se as teclas aceleradoras: CTRL+I.\b\par
+\par
+}
+#end 52
+#start 53
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20\tab M\'e9todo dos Tr\'e1p\'e9zios de Integra\'e7\'e3o, onde o usu\'e1rio obt\'e9m o valor da integral a partir de pontos dados.\par
+\pard\qc [Bitmap=C:\\MSolver\\Help\\trapezio.bmp/]\par
+\par
+\pard\b0\tab Esta tela pode ser acessada diretamente em qualquer ponto do programa utilizando-se as teclas aceleradoras: CTRL+T.\b\par
+}
+#end 53
+#start 54
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20\tab M\'e9todo de Simpson 1/3.\par
+\pard\qc [Bitmap=C:\\MSolver\\Help\\s13.bmp/]\par
+\par
+\pard\b0\tab Esta tela pode ser acessada diretamente em qualquer ponto do programa utilizando-se as teclas aceleradoras: CTRL+U.\b\par
+}
+#end 54
+#start 55
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20\tab M\'e9todo do Simpson 3/8\par
+\pard\qc [Bitmap=C:\\MSolver\\Help\\s38.bmp/]\par
+\pard\par
+\b0\tab Esta tela pode ser acessada diretamente em qualquer ponto do programa utilizando-se as teclas aceleradoras: CTRL+W.\b\par
+}
+#end 55
+#start 56
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Altera a dimens\'e3o da matriz.\par
+\par
+}
+#end 56
+#start 57
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Mostra o tamanho da matriz\par
+\par
+}
+#end 57
+#start 58
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Matriz de entrada de valores.\par
+\par
+}
+#end 58
+#start 59
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Limpa todos os campos de dados do m\'e9todo.\par
+}
+#end 59
+#start 60
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Executa os c\'e1lculos diretamente.\par
+\par
+}
+#end 60
+#start 61
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Sai do formul\'e1rio e volta para a \cf2\strike tela principal[link=ID40$].\cf1\strike0\par
+}
+#end 61
+#start 62
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Mostra a matriz triangular superior.\par
+\par
+}
+#end 62
+#start 63
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Mostra os resultados dos c\'e1lculos.\par
+\par
+}
+#end 63
+#start 64
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Mostra os passos efetuados durante os c\'e1lculos.\par
+\par
+[Bitmap=C:\\MSolver\\Help\\passos.bmp/]\par
+}
+#end 64
+#start 65
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Efetua os c\'e1lculos.\par
+\par
+}
+#end 65
+#start 66
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Mostra como as linhas foram organizadas.\par
+}
+#end 66
+#start 67
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Mostra todos as intera\'e7\'f5es feitas durante os c\'e1lculos.\par
+}
+#end 67
+#start 68
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Define o Erro.\par
+\par
+}
+#end 68
+#start 69
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Define as intera\'e7\'f5es a serem realizadas.\par
+\par
+}
+#end 69
+#start 70
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Exibe o gr\'e1fico da equa\'e7\'e3o.\par
+\par
+}
+#end 70
+#start 71
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Entrada da equa\'e7\'e3o.\par
+\par
+}
+#end 71
+#start 72
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0\fs20 Tela de escolha do intervalo\par
+[Bitmap=C:\\MSolver\\Help\\Intervalo.bmp/]\par
+}
+#end 72
+#start 73
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Mostra os c\'e1lculos efetuados para cada par X Y, variando de -9 a +9.\par
+\pard\qc\par
+}
+#end 73
+#start 74
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Mostra somente os intervalos positivos dispon\'edveis.\par
+\pard\qc\par
+}
+#end 74
+#start 75
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Matriz de entrada de pares X Y.\par
+\par
+}
+#end 75
+#start 76
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Mostra os intervalos negativos dispon\'edveis. \par
+}
+#end 76
+#start 77
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Edita os intervalos ao gosto do usu\'e1rio.\par
+\pard\qc\par
+}
+#end 77
+#start 78
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\ulnone\b\f0\fs20 Mostra a f\'f3rmula dos pontos.\par
+\par
+}
+#end 78
+#start 79
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\ulnone\b\f0\fs20 Ponto onde se deseja obter o resultado.\par
+\par
+}
+#end 79
+#start 80
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Mostra todos os c\'e1lculos necess\'e1rios.\par
+}
+#end 80
+#start 81
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Mostra as somas dos campos.\par
+\par
+}
+#end 81
+#start 82
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Equa\'e7\'e3o da reta.\par
+\par
+}
+#end 82
+#start 83
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Equa\'e7\'e3o Quadr\'e1tica.\par
+\par
+}
+#end 83
+#start 84
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Equa\'e7\'e3o C\'fabica.\par
+}
+#end 84
+#start 85
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\qc\cf1\lang1046\b\f0\fs20 Tela de Detalhes de ajuste de curvas.\par
+[Bitmap=C:\\MSolver\\Help\\detalhes.bmp/]\par
+}
+#end 85
+#start 86
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Mostra a matriz principal.\par
+}
+#end 86
+#start 87
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Mostra o n\'famero de pontos.\par
+}
+#end 87
+#start 88
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Intervalo calculado entre os valores de X.\par
+\par
+}
+#end 88
+#start 89
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20\tab O menu arquivo pode ser acessado pela combina\'e7\'e3o Alt+A, onde pode-se ter acesso aos recursos de abrir, salvar sair e voltar, como mostra a figura abaixo.\par
+\par
+\pard\qc [Bitmap=C:\\MSolver\\Help\\arquivo.bmp/]\par
+}
+#end 89
+#start 90
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Pode-se abrir uma matriz com pontos previamente salvos, abrindo automaticamente o m\'e9todo na qual foi salvo.\par
+Pode-se acessar diretamente em qualquer parte do programa com as teclas CTRL+O.\par
+\par
+}
+#end 90
+#start 91
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Pode-se salvar uma matriz com pontos previamente digitados.\par
+Pode-se acessar diretamente em qualquer parte do programa com as teclas CTRL+S.\par
+\par
+}
+#end 91
+#start 92
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;\red0\green128\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Pode-se voltar de um m\'e9todo para a \cf2\strike tela inicial[link=ID40$]\cf1\strike0 .\par
+Pode-se acessar diretamente em qualquer parte do programa com as teclas ALT+Backspace.\par
+Este menu s\'f3 est\'e1 dispon\'edvel entre os m\'e9todos, n\'e3o estando presente na tela inicial.\par
+\par
+}
+#end 92
+#start 93
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Encerra o programa.\par
+}
+#end 93
+#start 94
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20\tab O menu Sistemas Lineares pode ser acessado pela combina\'e7\'e3o Alt+S, onde pode-se ter acesso aos M\'e9todos de Gauss e Jacobi, como mostra a figura abaixo.\par
+\par
+\pard\qc [Bitmap=C:\\MSolver\\Help\\sistelin.bmp/]\par
+}
+#end 94
+#start 95
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20\tab O menu Zeros de Fun\'e7\'e3o  pode ser acessado pela combina\'e7\'e3o Alt+Z, onde pode-se ter acesso ao M\'e9todo de Bissec\'e7\'e3o, como mostra a figura abaixo.\par
+\par
+\pard\qc [Bitmap=C:\\MSolver\\Help\\zerofun.bmp/]\par
+\pard\par
+}
+#end 95
+#start 96
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20\tab O menu Interpola\'e7\'e3o  pode ser acessado pela combina\'e7\'e3o Alt+I, onde pode-se ter acesso ao M\'e9todo de Lagrange, como mostra a figura abaixo.\par
+\par
+\pard\qc [Bitmap=C:\\MSolver\\Help\\interpo.bmp/]\par
+}
+#end 96
+#start 97
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20\tab O menu Ajuste de Curvas  pode ser acessado pela combina\'e7\'e3o Alt+U, onde pode-se ter acesso ao Ajuste de Curvas, como mostra a figura abaixo.\par
+\pard\qc\par
+[Bitmap=C:\\MSolver\\Help\\ajucur.bmp/]\par
+}
+#end 97
+#start 98
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20\tab O menu Integra\'e7\'e3o pode ser acessado pela combina\'e7\'e3o Alt+N, onde pode-se ter acesso aos M\'e9todos de Trap\'e9zios, Simpson 1/3 e Simpson 3/8, como mostra a figura abaixo.\par
+\par
+\pard\qc [Bitmap=C:\\MSolver\\Help\\integr.bmp/]\par
+}
+#end 98
+#start 99
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Imprime o texto do passo na impressora corrente.\par
+\par
+}
+#end 99
+#start 100
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Envia texto do passo para \'e1rea de transfer\'eancia, para ser usado em algum processador de texto.\par
+\par
+}
+#end 100
+#start 101
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Salva em arquivo texto, o texto do passo corrente.\par
+\par
+}
+#end 101
+#start 102
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Volta para a tela do m\'e9todo que chamou o passo.\par
+\par
+}
+#end 102
+#start 103
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20\tab Pode abrir qualquer matriz ou equa\'e7\'e3o atrav\'e9s do menu arquivo, abrir. H\'e1 diversos tipos de arquivos, cada qual pertencente a um determinado m\'e9todo, como pode-se observar abaixo.\par
+\tab [Bitmap=C:\\MSolver\\Help\\arquivos.bmp/]\par
+\par
+\tab - Arquivos Matrizes: S\'e3o arquivos da matriz principal de Sistemas Lineares, com termina\'e7\'e3o *.mat.\par
+\tab - Arquivos Matriz Gauss: S\'e3o arquivos da matriz do m\'e9todo de Gauss, com termina\'e7\'e3o *.gau.\par
+\tab - Arquivos Matriz Jacobi: S\'e3o arquivos  da matriz do m\'e9todo de Jacobi, com termina\'e7\'e3o *.jac.\par
+\tab - Arquivos Equa\'e7\'e3o Bissec\'e7\'e3o: S\'e3o arquivos da equa\'e7\'e3o  de bissec\'e7\'e3o, com termina\'e7\'e3o *.bis.\par
+\tab - Arquivos Pontos Ajuste: S\'e3o arquivos de pontos de ajuste de curvas, com termina\'e7\'e3o *.aju.\par
+\tab - Arquivos Pontos Integra\'e7\'e3o: S\'e3o arquivos de pontos principal de Integra\'e7\'e3o, com termina\'e7\'e3o *.pon.\par
+\tab - Arquivos Pontos Trap\'e9zios: S\'e3o arquivos de pontos do m\'e9todo de Trap\'e9zios, com termina\'e7\'e3o *.tra.\par
+\tab - Arquivos Pontos Simpson 1/3: S\'e3o arquivos de pontos do m\'e9todo de Simpson 1/3, com termina\'e7\'e3o *.s13.\par
+\tab - Arquivos Pontos Simpson 3/8: S\'e3o arquivos de pontos do m\'e9todo de Simpson 3/8, com termina\'e7\'e3o *.s38.\par
+\par
+\tab Para selecionar o arquivo pretendido, escolhe-se o filtro no combobox Tipos de Arquivos e ir\'e1 aparecer os arquivos com a termina\'e7\'e3o conforme acima, clique sobre este arquivo e clique no bot\'e3o abrir.\par
+\tab Ap\'f3s este procedimento, ir\'e1 abrir a tela do m\'e9todo e carregar os valores previamente salvos na matriz correspondente. \par
+\par
+}
+#end 103
+#start 104
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20\tab Pode salvar qualquer matriz ou equa\'e7\'e3o atrav\'e9s do menu arquivo, salvar. Em cada m\'e9todo \'e9 atribuido um filtro, mostrado no campo Salvar Como Tipo, que n\'e3o conv\'e9m alterar, pois ao carregar o arquivo, o mesmo gerar\'e1 erro.\par
+\tab A tela abaixo mostra esta tela.\par
+\tab\par
+[Bitmap=C:\\MSolver\\Help\\salvando.bmp/]\par
+\par
+\tab Abaixo , a rela\'e7\'e3o dos filtros dispon\'edveis para cada m\'e9todo:\par
+\par
+\tab - Arquivos Matrizes: S\'e3o arquivos da matriz principal de Sistemas Lineares, com termina\'e7\'e3o *.mat.\par
+\tab - Arquivos Matriz Gauss: S\'e3o arquivos da matriz do m\'e9todo de Gauss, com termina\'e7\'e3o *.gau.\par
+\tab - Arquivos Matriz Jacobi: S\'e3o arquivos  da matriz do m\'e9todo de Jacobi, com termina\'e7\'e3o *.jac.\par
+\tab - Arquivos Equa\'e7\'e3o Bissec\'e7\'e3o: S\'e3o arquivos da equa\'e7\'e3o  de bissec\'e7\'e3o, com termina\'e7\'e3o *.bis.\par
+\tab - Arquivos Pontos Ajuste: S\'e3o arquivos de pontos de ajuste de curvas, com termina\'e7\'e3o *.aju.\par
+\tab - Arquivos Pontos Integra\'e7\'e3o: S\'e3o arquivos de pontos principal de Integra\'e7\'e3o, com termina\'e7\'e3o *.pon.\par
+\tab - Arquivos Pontos Trap\'e9zios: S\'e3o arquivos de pontos do m\'e9todo de Trap\'e9zios, com termina\'e7\'e3o *.tra.\par
+\tab - Arquivos Pontos Simpson 1/3: S\'e3o arquivos de pontos do m\'e9todo de Simpson 1/3, com termina\'e7\'e3o *.s13.\par
+\tab - Arquivos Pontos Simpson 3/8: S\'e3o arquivos de pontos do m\'e9todo de Simpson 3/8, com termina\'e7\'e3o *.s38.\par
+\par
+\tab\'c9 atribuido automaticamente um nome de arquivo padr\'e3o, mas pode-se alterar a crit\'e9rio do usu\'e1rio.\par
+\tab Ao clicar no bot\'e3o salvar o processo se realiza sem problemas, caso exista algum arquivo com o mesmo nome, o usu\'e1rio \'e9 indagado se deseja sobreescrever o arquivo ou atribuir outro nome.\par
+\par
+}
+#end 104
+#start 105
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}{\f1\fswiss\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\uc1\pard\cf1\lang1046\b\f0\fs20\tab Este sistema foi realizado devido \'e0 exig\'eancia do Professor Mestre Edeval Ari Vieira para a conclus\'e3o da disciplina de C\'e1lculo Num\'e9rico, ministrada pelo mesmo.\par
+\tab Foram 5 meses de trabalho, consumindo aproximadamente cerca de 100 horas de implementa\'e7\'e3o. Mas o trabalho ampliou os conhecimentos do grupo, tanto no aspecto profissional como na import\'e2ncia do trabalho em grupo, na implementa\'e7\'e3o, na documenta\'e7\'e3o e nos testes realizados no produto final, ou seja, o sistema acabado, ou melhor, desenvolvido.\par
+\par
+\tab Para a realiza\'e7\'e3o deste sistema foram utilizados as seguintes ferramentas:\par
+\par
+\tab Microsoft Windows 98: \b0 Sistema Operacional;\b\par
+\tab Borland\f1\'ae Delphi\cf0\b0\fs24\'ae \cf1\b\fs20  3 Client/Server: \b0 Para o desenvolvimento do sistema;\b\f0\par
+\tab CorelDraw!\cf0\b0\f1\fs24\'ae\cf1\b\f0\fs20  7: \b0 Cria\'e7\'e3o e edi\'e7\'e3o da imagem de apresenta\'e7\'e3o;\par
+\tab\b CorelPhotoPaint\cf0\b0\f1\fs24\'ae\cf1\b\f0\fs20 7:\b0  Cria\'e7\'e3o e edi\'e7\'e3o dos \'edcones utilizados;\par
+\tab\b MGI Photo Suite\cf0\b0\f1\fs24\'ae\cf1\b\f0\fs20 : \b0 Cria\'e7\'e3o e edi\'e7\'e3o dos \'edcones utilizados;\par
+\tab\b Visio\cf0\b0\f1\fs24\'ae: \cf1\fs20 Cria\'e7\'e3o dos fluxogramas;\par
+\tab\b Help Express\cf0\b0\fs24\'ae\cf1\b\fs20  3: \b0 Cria\'e7\'e3o do Help;\par
+\tab\b Help WorkShop\cf0\b0\fs24\'ae\cf1\b\fs20 : \b0 Compila\'e7\'e3o do help;\par
+\tab\b Microsoft Word\cf0\b0\fs24\'ae\cf1\b\fs20  97: \b0 Cria\'e7\'e3o e edi\'e7\'e3o do manual do usu\'e1rio;\par
+\tab\b PhotoFinish\cf0\b0\fs24\'ae\cf1\b\fs20 : \b0 Edi\'e7\'e3o das telas do sistema para inclus\'e3o no help;\par
+\tab\b Microsoft Paint\cf0\b0\fs24\'ae\cf1\b\fs20 : \b0 Edi\'e7\'e3o das telas do sistema para inclus\'e3o no help;\par
+\par
+\tab\cf2\b Todos os programas e seus nomes s\'e3o marcas registradas e de propriedade de seus respectivos fabricantes, com todos os direitos reservados por leis nacionais e internacionais.\cf1\b0\par
+\tab\f0\par
+\tab\b\par
+\tab\par
+}
+#end 105
+#start 106
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20\tab O desenvolvimento deste sistema foi dividido  entre os integrantes do grupo, cada componente sendo respons\'e1vel por algum m\'e9todo ou o trabalho relacionado ao sistema.\par
+\tab\par
+\tab Aline Clemente Buzzo: M\'e9todo de Jacobi;\par
+\tab Adelita Aparecida Lopes: M\'e9todo de Gauss;\par
+\tab Jo\'e3o Paulo Torralbo de Carvalho: Ajuste de Curvas, Manual, arte-finaliza\'e7\'e3o;\par
+\tab Gilson Maicon Maicolino: M\'e9todo de Jacobi;\par
+\tab Amanda Cristina de Sarzi Andr\'e9: Bissec\'e7\'e3o, Fluxogramas, testes finais;\par
+\tab Gustavo Francisco Ramos Ferrante: Lagrange, arte-finaliza\'e7\'e3o;\par
+\tab Carlos Alberto Gon\'e7alves Abreu: Integra\'e7\'e3o, implementa\'e7\'e3o, help;\par
+\par
+[Bitmap=C:\\MSolver\\Help\\Group.bmp/]\par
+}
+#end 106
+#start 107
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Adelita Aparecida Lopes\par
+123707\par
+M\'e9todo de Gauss\par
+}
+#end 107
+#start 108
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Aline Clemente Buzzo\par
+116101\par
+M\'e9todo de Jacobi\par
+\par
+}
+#end 108
+#start 109
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Amanda Cristina Sarzi Andr\'e9\par
+126728\par
+M\'e9todo da Bissec\'e7\'e3o\par
+}
+#end 109
+#start 110
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Gustavo Francisco Ramos Ferrante\par
+126738\par
+M\'e9todo de Lagrange\par
+\par
+}
+#end 110
+#start 111
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Edeval  'Baixinho da Kaizer' Ari Vieira\par
+Professor Mestre de C\'e1lculo Num\'e9rico\par
+Orientador\par
+\par
+}
+#end 111
+#start 112
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Carlos Alberto Gon\'e7alves Abreu\par
+126749\par
+Programa\'e7\'e3o\par
+\par
+}
+#end 112
+#start 113
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl {\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue0;}
+\uc1\pard\cf1\lang1046\b\f0\fs20 Jo\'e3o Paulo Torralbo de Carvalho\par
+123748\par
+M\'e9todo de Ajuste de Curvas\par
+}
+#end 113
+[vars]
+
+[EOF]

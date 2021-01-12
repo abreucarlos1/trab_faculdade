@@ -1,0 +1,28 @@
+;Windows 95 Help Project File
+[OPTIONS]
+COMPRESS = 0
+DBCS = NO
+REPORT = YES
+LCID = 0x0409 0x0 0x0 ;English (United States)
+ERRORLOG = c:\MSolver\Help\calculo.ERR
+COPYRIGHT = Copyright 2000
+CITATION = Todos os Direitos Reservados
+BMROOT = C:\HMPRO\SOURCE,C:\MSOLVER\HELP
+TITLE = Cálculo Numérico
+MULTIKEY = M
+IGNORE = 1017
+
+[WINDOWS]
+main="DEFAULT",(100,100,823,823),27904,(255,255,255),(255,255,232),f2
+Glossary="Glossary",(600,70,375,875),0,(255,255,255),(192,192,192),1
+
+[CONFIG]
+CreateButton("Glossary_btn", "&Glossary", "JumpId(`CALCULO.HLP>Glossary', `Glossary')")
+
+
+[FILES]
+c:\MSolver\Help\calculo.Rtf
+
+[MAP]
+Contents    1; Contents
+Glossary    2; Glossary

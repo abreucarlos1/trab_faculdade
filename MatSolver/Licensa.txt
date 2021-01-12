@@ -1,0 +1,24 @@
+	         	Licensa de Distribuição e Uso
+
+	Este software é e só pode ser usado e distribuído para fins 
+educacionais e gratuitamente, sendo vetada a venda e comercialização 
+total ou parcial deste software.
+	O descumprimento desta, será considerada crime autoral e 
+intelectual, sujeita as penalidades prevista em lei.
+
+	Este software está em conformidade com os termos da GNU Group.
+
+	Caso não concorde com este termo de compromisso, cancele e 
+não continue a sua instalação.
+	
+
+	Em caso de dúvidas ou para reportar o descumprimento desta, 
+favor reportar para:
+	
+	carlos@netwalk.com.br
+
+
+
+
+©2000 - MatSolver® - Todos os Direitos Reservados.
+	
