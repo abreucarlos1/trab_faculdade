@@ -1,0 +1,128 @@
+{ programa grafico (reta) Amanda,Carlos,Gustavo}
+program reta;
+
+uses graph,crt;
+var
+   x1,x2,y1,y2,dx,dy,inc1,inc2,temp:integer;
+   M:real;
+
+procedure initgraf;
+var
+   gd,gm:integer;
+begin
+     Gd := Detect;
+     InitGraph(Gd, Gm, 'c:\TP');
+     if GraphResult <> grOk then
+        Halt(1);
+     setbkcolor(0);
+end;
+
+procedure vertical(px1,py1,px2,py2:integer);
+var
+   inc1,inc2:integer;
+begin
+     for inc1:=px1 to px2 do
+         begin
+              for inc2:=py1 to py2 do
+                  begin
+                       putpixel(inc1,inc2,5);
+                  end;
+         end;
+end;
+
+procedure diagonal45(x1,y1,x2,y2:integer);
+var
+   x,y,inc1,inc2,D:integer;
+begin
+     x:=x1;
+     y:=y1;
+     {putpixel(x,360-y,2);}
+     inc1:=2*dy;
+     inc2:=2*(dy-dx);
+     d:=inc1-dx;
+     while x<=x2 do
+           begin
+                putpixel(x,480-y,2);
+                if d<0 then
+                   begin
+                        d:=d+inc1;
+                        x:=x+1;
+                   end;
+                if d>=0 then
+                   begin
+                        d:=d+inc2;
+                        x:=x+1;
+                        y:=y+1;
+                   end;
+           end;
+end;
+
+procedure diagonal90(x1,y1,x2,y2:integer);
+var
+   x,y,inc1,inc2,D:integer;
+begin
+     x:=x1;
+     y:=y1;
+     {putpixel(x,360-y,2);}
+     inc1:=2*dx;
+     inc2:=2*(dx-dy);
+     d:=inc1-dy;
+     while y<=y2 do
+           begin
+                putpixel(x,480-y,6);
+                if d<0 then
+                   begin
+                        d:=d+inc1;
+                        y:=y+1;
+                   end;
+                if d>=0 then
+                   begin
+                        d:=d+inc2;
+                        x:=x+1;
+                        y:=y+1;
+                   end;
+           end;
+end;
+
+begin
+     clrscr;
+     write('Entre com o ponto X1 (0-640): ');
+     readln(x1);
+     write('Entre com o ponto Y1 (0-480): ');
+     readln(y1);
+     write('Entre com o ponto X2 (0-640): ');
+     readln(x2);
+     write('Entre com o ponto Y2 (0-480): ');
+     readln(y2);
+     initgraf;
+     if not (y2>=y1) then
+        begin
+             temp:=y1;
+             y1:=y2;
+             y2:=temp;
+        end;
+
+
+     if x1=x2 then
+        vertical(x1,y1,x2,y2);   {reta}
+
+     if x2<>x1 then
+        begin
+             dx:=x2-x1;
+             dy:=y2-y1;
+        end;
+     m:=dy/dx;
+     if (m>=0) and (m<1) then
+        diagonal45(x1,y1,x2,y2)
+     else
+         diagonal90(x1,y1,x2,y2);
+
+
+
+     readkey;
+     CloseGraph;
+
+
+
+
+end.
